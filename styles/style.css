@@ -1,0 +1,10 @@
+ .mydiv{
+    display: flex;
+    justify-content: space-between;
+ }
+ .item{
+    width:150px;
+    height: 150px;
+    background: aqua;
+    border: 2px solid red;
+ }
