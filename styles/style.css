@@ -1,10 +1,22 @@
- .mydiv{
-    display: flex;
-    justify-content: space-between;
- }
- .item{
-    width:150px;
-    height: 150px;
-    background: aqua;
-    border: 2px solid red;
- }
+body{
+   width: 100%;
+}
+.container{
+   max-width: 1120px;
+   margin: 0 auto;
+}
+.content{
+   display: flex;
+   gap: 15px;
+}
+.box{
+   padding: 25px;
+   background:lightsalmon;
+   color: blakc;
+   border-radius: 15px;
+}
+@media screen and (max-width:600px) {
+   .content{
+      flex-direction: column;
+   }
+}
