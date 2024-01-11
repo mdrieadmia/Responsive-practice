@@ -29,6 +29,26 @@ img{
       grid-template-columns: repeat(1, 1fr);
    }
 }
-@media screen and (min-width:576px) and (max-width:998px) {
+@media screen and (min-width:576px) and (max-width:992px) {
    
+}
+
+.riead{
+   display: grid;
+   gap: 20px;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: repeat(3, 100px) 30px 30px;
+}
+.box{
+   background: #2ef;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+}
+#box-1{
+   grid-row: span 5;
+}
+#box-11, #box-12{
+   grid-column: span 3;
 }
